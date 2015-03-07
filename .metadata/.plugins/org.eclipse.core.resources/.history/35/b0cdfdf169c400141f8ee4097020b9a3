@@ -1,0 +1,46 @@
+package codewars2015;
+
+public abstract class r {
+	public static final void p(String a) {
+		System.out.println(a);
+	}
+	public static final void p(int a) {
+		System.out.println(a);
+	}
+	public static final void p(double a) {
+		System.out.println(a);
+	}
+	public static final void p(float a) {
+		System.out.println(a);
+	}
+	public static final void p(long a) {
+		System.out.println(a);
+	}
+	public static final void p(short a) {
+		System.out.println(a);
+	}
+	public static final void p(boolean a) {
+		System.out.println(a);
+	}
+	public static final void p(int[] a) {
+		System.out.println(java.util.Arrays.toString(a));
+	}
+	public static final void p(String[] a) {
+		System.out.println(java.util.Arrays.toString(a));
+	}
+	public static final void p(double[] a) {
+		System.out.println(java.util.Arrays.toString(a));
+	}
+	public static final void p(float[] a) {
+		System.out.println(java.util.Arrays.toString(a));
+	}
+	public static final void p(long[] a) {
+		System.out.println(java.util.Arrays.toString(a));
+	}
+	public static final void p(boolean[] a) {
+		System.out.println(java.util.Arrays.toString(a));
+	}
+	public static final void p(short[] a) {
+		System.out.println(java.util.Arrays.toString(a));
+	}
+}

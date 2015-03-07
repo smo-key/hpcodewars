@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+
+public class p9 {
+
+	public static void main(String[] args) {
+		Scanner s = r.rf("prob09.txt");
+		while(true) 
+		{
+			int a = s.nextInt();
+			int counter = 0;
+			for(int i = 1; i <= a; i++) {
+				char[] a = String.valueOf(a).toCharArray();
+				for(int o = 0; o < a.length; o++) {
+					if
+				}
+			}
+		}
+	}
+
+}

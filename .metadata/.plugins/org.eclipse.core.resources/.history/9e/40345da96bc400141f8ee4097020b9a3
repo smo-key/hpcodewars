@@ -1,0 +1,16 @@
+package codewars2015;
+
+import java.util.Scanner;
+
+public class p1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner s = r.rf("prob01.txt");
+		while(r.hnl(s)) {
+			String a = r.nl(s);
+			r.pl("Hello, " + a + "!  We love your t-shirt.");
+		}
+	}
+
+}

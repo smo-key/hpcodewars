@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+
+public class p9 {
+
+	public static void main(String[] args) {
+		Scanner s = r.rf("prob09.txt");
+		while(true) 
+		{
+			
+		}
+	}
+
+}

@@ -1,0 +1,62 @@
+import java.util.Hashtable;
+import java.util.Scanner;
+
+
+public class p21 {
+	public static final char[] vowels = {'A', 'E', 'I', 'O', 'U'};
+	public static void main(String[] args) {
+		Scanner s = r.rf("prob21.txt");
+		while(true) {
+			String str = s.nextLine();
+			if(str.equals("~")) {
+				break;
+			}
+			String[] split = str.split(" ");
+			for(int i = 0; i < split.length; i++) {
+				split[i] = split[i].toUpperCase();
+			}
+			for(int i = 1; i < split.length-1; i++) {
+				char[] a = split[i].toCharArray();
+				if(a.length < 2) {
+					continue;
+				}
+				for(int o = 0; o < a.length; o++) {
+					if(a[o] == 'E' || a[o] == 'I' || a[o] == 'Y') {
+						if(a[o - 1] == 'C') {
+							a[o] = '!';
+							a[o - 1] = 'C';
+						}
+					}
+				}
+				for(int o = 0; o < a.length; o++) {
+					if(a[o] == 'C') {
+						if(o == a.length - 1) {
+							a[o] = 'K';
+						} else if(charIsAlpha(a[o + 1])) {
+							if(a[o + 1] != 'E' && a[o + 1] != 'I') {
+								a[o] = 'K';
+							}
+						}
+					}
+				}
+				String res = "";
+				for(int o = 0; o < a.length; o++) {
+					if(a[o] != '!') {
+						res += a[o];
+					}
+				}
+				split[i] = res;
+				split[i] = split[i].replace("ck","k");
+				
+			}
+			Hashtable<String, Integer> ht = new Hashtable<String, Integer>();
+			for(int i = 0; i < split.length -1; i++) {
+				String newstr = "";
+				
+			}
+		}
+	}
+	public static boolean charIsAlpha(char a) {
+		return a >= 'A' && a <= 'Z';
+	}
+}

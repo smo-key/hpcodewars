@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+
+public class p21 {
+
+	public static void main(String[] args) {
+		Scanner s = r.rf("prob21.txt");
+		while(true) {
+			String str = s.nextLine();
+			if(str.equals("~")) {
+				break;
+			}
+			String[] split = str.split(" ");
+			for(int i = 0; i < split.length; i++) {
+				split[i] = split[i].toUpperCase();
+			}
+			
+		}
+	}
+
+}

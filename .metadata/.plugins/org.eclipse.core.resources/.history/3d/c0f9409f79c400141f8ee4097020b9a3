@@ -1,0 +1,13 @@
+
+public class p12 {
+	String[] items = {"*-", "-***", "-*-*", "-**", "*", "**-*", "--*", "--*", "****", "**", "*---", "-*-", "*-**", "--", "-*", "---", "*--*", "--*-", "*-*", "***", "-", "**-", "***-", "*--", "-**-", "-*--", "--**"};
+	public static void main(String[] args) {
+		Scanner a = r.rf("prob12.txt");
+		while(r.hnl(a)) {
+			String a = r.nl(a);
+		}
+	}
+	public String codeVal(char c) {
+		return items[c-'A'];
+	}
+}

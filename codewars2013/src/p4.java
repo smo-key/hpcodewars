@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+
+public class p4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in = r.rf("prob04.txt");
+		double a = in.nextDouble();
+		double b = in.nextDouble();
+		r.pl((a*a)*Math.sin(Math.toRadians(2*b))/9.80665);
+	}
+
+}

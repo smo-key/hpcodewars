@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+
+public class p12 {
+	static String[] items = {"*-", "-***", "-*-*", "-**", "*", "**-*", "--*", "--*", "****", "**", "*---", "-*-", "*-**", "--", "-*", "---", "*--*", "--*-", "*-*", "***", "-", "**-", "***-", "*--", "-**-", "-*--", "--**"};
+	public static void main(String[] args) {
+		Scanner a = r.rf("prob12.txt");
+		while(r.hnl(a)) {
+			String str = r.nl(a);
+			if(str.equals(".")) {
+				return;
+			}
+			StringBuilder sb = new StringBuilder(str);
+			char[] ca = str.toCharArray();
+			for(int i = 0; i < ca.length; i++) {
+				sb.append(codeVal(ca[i]));
+			}
+		}
+	}
+	public static String codeVal(char c) {
+		return items[c-'A'];
+	}
+}

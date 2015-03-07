@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+
+public class p5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in = r.rf("prob05.txt");
+		while(true)
+		{
+			int n = in.nextInt();
+			if (n == -1) { return; }
+			if (n < 0) { continue; }
+			int val[30];
+			for (int i=3; i<n; i++)
+			{
+				val[i] = 
+			}
+		}
+	}
+
+}

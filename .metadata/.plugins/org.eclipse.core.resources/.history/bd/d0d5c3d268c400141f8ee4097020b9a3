@@ -1,0 +1,28 @@
+package codewars2015;
+
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
+public abstract class r {
+	public static final void p(String a) {
+		System.out.println(a);
+	}
+	public static final void p(int a) {
+		System.out.println(a);
+	}
+	public static final void p(double a) {
+		System.out.println(a);
+	}
+	public static final void p(float a) {
+		System.out.println(a);
+	}
+	public static final void p(long a) {
+		System.out.println(a);
+	}
+	public static final void p(boolean a) {
+		System.out.println(a);
+	}
+	public static final void p(Array a)  {
+		Arrays.toString(a);
+	}
+}

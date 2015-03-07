@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+
+public class p1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in = r.rf("prob01-in-1.txt");
+		int n = r.ni(in);
+		r.pl(8 * n - 95);
+	}
+
+}

@@ -1,0 +1,3 @@
+cp manifest manifest.out
+echo "$1" >> manifest.out
+jar cmf manifest.out out.jar bin/*.class *

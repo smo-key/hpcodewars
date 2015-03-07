@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+
+public class p9 {
+
+	public static void main(String[] args) {
+		Scanner s = r.rf("prob09.txt");
+		while(true) 
+		{
+			int a = s.nextInt();
+			if(a == -1) return;
+			if (a < 0) { continue; }
+			int counter = 0;
+			for(int i = 1; i <= a; i++) {
+				//r.pl("i: " + i);
+				char[] b = String.valueOf(i).toCharArray();
+				//r.pl("  carr: " + java.util.Arrays.toString(b));
+				for(int o = 0; o < b.length; o++) {
+					//r.pl("    o: " + o);
+					if(b[o] == '1') counter++;
+				}
+			}
+			r.pl(counter);
+		}
+	}
+
+}

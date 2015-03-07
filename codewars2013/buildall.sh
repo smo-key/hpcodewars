@@ -1,0 +1,1 @@
+/home/arthur/git/codewars/codewars2015/buildall.sh
