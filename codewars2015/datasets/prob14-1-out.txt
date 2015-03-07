@@ -1,0 +1,17 @@
+6 squares can cover 11x10.
+2 2 4 5 5 6
+aaaaaabbbbb
+aaaaaabbbbb
+aaaaaabbbbb
+aaaaaabbbbb
+aaaaaabbbbb
+aaaaaaccccc
+ddddeeccccc
+ddddeeccccc
+ddddffccccc
+ddddffccccc
+
+The map might not match.  So:
+ -- verify the minimum number (N) of squares matches the answer above, 
+ -- check the list of square sizes to make sure there are only N entries,
+ -- do a quick visual inspection of the grid to make sure there are N squares (the letters should help.)

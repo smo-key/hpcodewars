@@ -1,0 +1,3 @@
+Empty Cubes: 0
+Duplicate Cube Assignments: 3
+Employees without Cube: 2

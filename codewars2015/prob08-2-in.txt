@@ -1,0 +1,11 @@
+10
+Howard 5
+Peter 4
+Collin 8
+Odile 4
+Dan 5
+Emily 0
+Walter 7
+Andrew 8
+Rita 4
+Sam 0

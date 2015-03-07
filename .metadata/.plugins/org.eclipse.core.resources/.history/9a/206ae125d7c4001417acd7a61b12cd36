@@ -1,0 +1,16 @@
+
+
+import java.util.Scanner;
+
+public class prob01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner s = r.rf("prob01.txt");
+		while(r.hnl(s)) {
+			String a = r.nl(s).trim();
+			r.pl("Hello, " + a + "!  We love your t-shirt.");
+		}
+	}
+
+}

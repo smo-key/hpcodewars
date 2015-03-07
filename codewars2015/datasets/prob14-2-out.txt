@@ -1,0 +1,25 @@
+7 squares can cover 19x18.
+3 5 5 7 7 8 11
+aaaaaaaaaaabbbbbbbb
+aaaaaaaaaaabbbbbbbb
+aaaaaaaaaaabbbbbbbb
+aaaaaaaaaaabbbbbbbb
+aaaaaaaaaaabbbbbbbb
+aaaaaaaaaaabbbbbbbb
+aaaaaaaaaaabbbbbbbb
+aaaaaaaaaaabbbbbbbb
+aaaaaaaaaaacccddddd
+aaaaaaaaaaacccddddd
+aaaaaaaaaaacccddddd
+eeeeeeefffffffddddd
+eeeeeeefffffffddddd
+eeeeeeefffffffggggg
+eeeeeeefffffffggggg
+eeeeeeefffffffggggg
+eeeeeeefffffffggggg
+eeeeeeefffffffggggg
+
+The map might not match.  So:
+ -- verify the minimum number (N) of squares matches the answer above, 
+ -- check the list of square sizes to make sure there are only N entries,
+ -- do a quick visual inspection of the grid to make sure there are N squares (the letters should help.)

@@ -1,0 +1,16 @@
+15
+-X---XX--------
+-X----XX----X--
+XXX----XX--XX--
+XXX-------XX--X
+----XX----X---X
+XX-XXXX-------X
+XX--XX----XX--X
+XX--------XX---
+XX---XX---XX---
+---XXXX---XX---
+-----XX--------
+-X--------XX---
+XXX--XXXX--XX--
+XXX---------XX-
+-X----XXXX-----

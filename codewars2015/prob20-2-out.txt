@@ -1,0 +1,3 @@
+book.title = MyBook
+book.authors[1] = YourName
+book.date = MMXIV

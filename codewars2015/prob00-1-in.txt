@@ -1,0 +1,1 @@
+(Problem 0 doesn't require any input. This file is just to make the judge.bat script happy.)

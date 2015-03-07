@@ -1,0 +1,13 @@
+( # ( book ( #
+   ( title MyBook )
+   ( authors ( MyName YourName ) )
+   ( date MMXIV )
+   ( characters ( ( Mary Martha Larry ) ( WuYan SuLiu ) ) )
+   ( formatList (
+( # ( format paperback ) ( price XXIV ) ( pages CCCIC ) ) ( # ( format audioCD )
+( price XIX ) ) ( # ( format hardback ) ( price XXXII ) ) ) ) ) ) )
+book.date
+book.authors[0]
+book.characters[1][0]
+book.formatList[2].price
+.

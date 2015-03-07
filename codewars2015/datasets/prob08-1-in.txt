@@ -1,0 +1,17 @@
+16
+Joe 11
+Bob 123
+NA 101
+Katy 125
+Sam 47
+Mike 59
+NA 23
+Vivek 62
+Fred 0
+Lars 74
+Oscar 86
+Caroline 11
+NA 90
+Erin 11
+Rachel 111
+Nate 125

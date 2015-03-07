@@ -1,0 +1,5 @@
+( # ( book ( # ( title MyBook ) ( authors ( MyName YourName ) ) ( date MMXIV ) ) ) )
+book.title
+book.authors[1]
+book.date
+.

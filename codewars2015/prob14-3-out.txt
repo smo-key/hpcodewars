@@ -1,0 +1,13 @@
+2 squares can cover 18x9.
+9 9
+aaaaaaaaabbbbbbbbb
+aaaaaaaaabbbbbbbbb
+aaaaaaaaabbbbbbbbb
+aaaaaaaaabbbbbbbbb
+aaaaaaaaabbbbbbbbb
+aaaaaaaaabbbbbbbbb
+aaaaaaaaabbbbbbbbb
+aaaaaaaaabbbbbbbbb
+aaaaaaaaabbbbbbbbb
+
+Your program should match this output exactly.

@@ -1,0 +1,47 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+
+
+public class prob00 {
+
+	public static final Scanner rf(String filename) {
+		try {
+			return new Scanner(new File(filename));
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return null;
+	}
+	public static final void pround(double n, int digits) {
+		System.out.printf("%." + digits + "f\n", n);
+	}
+	public static final double round(double n, int digits) {
+		return Double.parseDouble(String.format("%." + digits + "f", n));
+	}
+	public static final Matcher regex(String pattern, String text)
+	{
+		return regex(pattern, text, false, false);
+	}
+	public static final Matcher regex(String pattern, String text, boolean caseinsensitive)
+	{
+		return regex(pattern, text, caseinsensitive, false);
+	}
+	public static final Matcher regex(String pattern, String text, boolean caseinsensitive, boolean multiline)
+	{
+		int flags = (caseinsensitive ? Pattern.CASE_INSENSITIVE : 0) + (caseinsensitive ? Pattern.MULTILINE : 0);
+		Pattern p = Pattern.compile(pattern, flags);
+		Matcher m = p.matcher(text);
+		return m;
+	}	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Welcome, Barcelona and Newcastle!");
+	}
+
+}

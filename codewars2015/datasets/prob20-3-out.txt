@@ -1,0 +1,4 @@
+book.date = MMXIV
+book.authors[0] = MyName
+book.characters[1][0] = WuYan
+book.formatList[2].price = XXXII

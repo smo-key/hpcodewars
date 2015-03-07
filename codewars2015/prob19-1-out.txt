@@ -1,0 +1,6 @@
+3 Battleship
+3 Carrier
+2 Destroyer
+2 Frigate
+2 Gunner
+0 Ships are touching.

@@ -1,0 +1,6 @@
+1.523679
+2.7668
+0.723327
+9.6699
+
+The answer must be accurate to within +/- 0.01
